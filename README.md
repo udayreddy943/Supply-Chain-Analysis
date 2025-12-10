@@ -1,91 +1,94 @@
 Supply Chain Analysis – Power BI Dashboard
 📦 Project Overview
 
-This project provides a comprehensive supply chain performance analysis for Stratos Supply Networks Pvt. Ltd. using Power BI. The dashboard highlights key operational metrics including revenue, product performance, customer demographics, lead times, stock levels, and SKU-wise insights.
-It enables stakeholders to monitor supply efficiency, product demand, and inventory movement for better decision-making.
+This project presents a comprehensive Supply Chain Analysis for Stratos Supply Networks Pvt. Ltd. using an interactive Power BI dashboard. The dashboard highlights key operational KPIs such as revenue, pricing, lead time, product performance, customer demographics, and SKU-level insights—enabling data-driven decisions for supply chain optimization.
 
 🛠 Tools & Technologies Used
 
 Power BI Desktop
 
-Power Query for data cleaning
+Power Query for ETL
 
-DAX for calculated measures
+DAX for measures & calculations
 
-Excel / CSV Supply Chain Dataset
+Excel / CSV Dataset
 
 📈 Key Insights
 🔹 Top-Level Metrics
 
-Total Revenue: $0.51M
+Total Revenue: $2.29M
 
-Average Price: 46.54
+Average Price: 49.46
 
-Average Lead Time: 16.23 days
+Average Lead Time: 15.96 days
 
-Total Products Sold: 11K
+Total Products Sold: 46K
 
-🔹 Revenue & Product Insights
+🔹 Revenue & Product Analysis
 
 Revenue distribution across cosmetics, haircare, and skincare categories
 
-Top 10 SKUs identified by units sold
+Top 10 SKUs identified by units sold (e.g., SKU10, SKU04, SKU09, SKU36, etc.)
 
-SKU performance comparison: Revenue vs Units Sold
+Performance comparison of Revenue vs Units Sold across all SKUs
 
 🔹 Customer Demographics
 
-Gender-wise breakdown: Male, Female, Non-binary, Unknown
+Largest segment: Unknown (0.83M)
 
-Helps identify customer market segments
+Female & Male customers contribute equally (0.49M each)
 
-🔹 Operational Insights
+Includes Non-binary segment (0.48M)
 
-Stock levels per SKU
+Helps understand demand patterns across customer types
 
-Lead time evaluation
+🔹 Operational Efficiency Insights
 
-Supplier-level filtering for deeper supply chain visibility
+Stock-level visibility across all SKUs
+
+Lead time differences (13 to 27 days depending on SKU)
+
+Supplier filtering for root-cause and performance analysis
 
 📂 Project Structure
-├── data/                     # Raw dataset (CSV/Excel)
+├── data/                     # Raw dataset files
 ├── dashboard/                # Power BI .pbix file
 ├── images/                   # Dashboard screenshots
-├── README.md                 # Documentation
+├── README.md                 # Project documentation
 
 🎯 Business Questions Answered
 
-Which SKUs generate the highest revenue?
+Which SKUs generate the highest revenue and units sold?
 
-What are the top-performing product categories?
+What categories drive most of the revenue?
 
-How do stock levels vary across SKUs?
+What is the stock availability across SKUs?
 
-What is the average lead time across suppliers?
+Which customer segments show the highest demand?
 
-Who are the major customer groups?
+How long does it take for suppliers to fulfill orders on average?
 
 📌 Skills Demonstrated
 
-Data Modeling & ETL
+Data Modeling
 
-DAX Measure Development
+KPI Development
 
-Building interactive dashboards
+DAX Calculations
 
-KPI creation & performance tracking
+Interactive Filtering & Slicers
 
-Supply chain analytics
+Supply Chain Analytics
 
-Storytelling through data visualization
+Visualization Design & Storytelling
 
 🚀 How to Use
 
-Download the .pbix file from the repository.
+Download the .pbix file from this repository.
 
-Open it using Power BI Desktop.
+Open in Power BI Desktop.
 
-Use filters (SKU, Supplier, Product Type, Customer Demographics) to explore data.
+Use slicers (SKU, Supplier, Product Type, Customer Demographics) for deeper insights.
 
 📝 Author
 
@@ -96,4 +99,4 @@ Data Analyst | Power BI | SQL | Excel
 
 🔗 LinkedIn: https://www.linkedin.com/in/mekala-uday-kiran-reddy-2705602a6/
 
-🔗 gmail: udayreddyy835@gmail.com
+🔗 gmail : udayreddyy835@gmail.com
